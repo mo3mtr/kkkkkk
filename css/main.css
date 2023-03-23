@@ -106,7 +106,9 @@ input[type=checkbox]:nth-child(2){
     padding: 20px;
 }
 
-
+.m-5{
+    margin: 5px 0;
+}
 .pt{
     position: absolute;
     font-size: 170px;
@@ -114,5 +116,21 @@ input[type=checkbox]:nth-child(2){
     transform: rotate(-45deg);
     top: 320px;
     left: 0;
+    font-weight: bold;
+}
+span img{
+    width: 70px;
+}
+span{
+    display: block;
+    text-align: center;
+}
+.qq{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
     font-weight: bold;
 }
